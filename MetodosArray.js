@@ -34,11 +34,12 @@ const alunos = [
 
 //Para cada aluno 
 // Verificar se ele é maior de idade
+//Se for, exibir "O aluno, x  posição index da turma x é maior de idade" 
 
 alunos.forEach(function (item, index){
     if(item.idade >= 18){
-    console.log('O aluno,' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade')
-    //console.log('O aluno{item.nome}, posição ${index} da turma ${item.turma} é maior de idade')
+    console.log('O aluno(a), ' + item.nome + '  posição ' + index + ' da turma ' + item.turma + ' é maior de idade')
+    
 }
 });
 
